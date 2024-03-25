@@ -1,0 +1,28 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+langchain = "*"
+openai = "*"
+langchain-core = "*"
+wikipedia = "*"
+panel = "*"
+jupyter-bokeh = "*"
+streamlit = "*"
+plotly = "*"
+pandas = "*"
+snowflake-snowpark-python = {extras = ["pandas"] }
+langchain-community = "*"
+langchain-openai = "*"
+langchain-experimental = "*"
+tabulate = "*"
+langchainhub = "*"
+
+[dev-packages]
+ipykernel = "*"
+
+[requires]
+python_version = "3.11"
+python_full_version = "3.11.6"
